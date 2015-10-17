@@ -13,6 +13,9 @@
 		75E545741BD250C0004CDDC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E545731BD250C0004CDDC1 /* Images.xcassets */; };
 		75E545771BD250C0004CDDC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E545751BD250C0004CDDC1 /* LaunchScreen.xib */; };
 		75E545831BD250C0004CDDC1 /* AreYouJokingLesson3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E545821BD250C0004CDDC1 /* AreYouJokingLesson3Tests.m */; };
+		75E5458E1BD266DC004CDDC1 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E5458D1BD266DC004CDDC1 /* JokesViewController.m */; };
+		75E545911BD27771004CDDC1 /* Joke.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E545901BD27771004CDDC1 /* Joke.m */; };
+		75E545941BD28839004CDDC1 /* JokeDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E545931BD28839004CDDC1 /* JokeDetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,12 @@
 		75E5457C1BD250C0004CDDC1 /* AreYouJokingLesson3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreYouJokingLesson3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E545811BD250C0004CDDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E545821BD250C0004CDDC1 /* AreYouJokingLesson3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreYouJokingLesson3Tests.m; sourceTree = "<group>"; };
+		75E5458C1BD266DC004CDDC1 /* JokesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokesViewController.h; sourceTree = "<group>"; };
+		75E5458D1BD266DC004CDDC1 /* JokesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokesViewController.m; sourceTree = "<group>"; };
+		75E5458F1BD27771004CDDC1 /* Joke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joke.h; sourceTree = "<group>"; };
+		75E545901BD27771004CDDC1 /* Joke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joke.m; sourceTree = "<group>"; };
+		75E545921BD28839004CDDC1 /* JokeDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeDetailedViewController.h; sourceTree = "<group>"; };
+		75E545931BD28839004CDDC1 /* JokeDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeDetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 				75E5456A1BD250C0004CDDC1 /* AppDelegate.h */,
 				75E5456B1BD250C0004CDDC1 /* AppDelegate.m */,
 				75E545701BD250C0004CDDC1 /* Main.storyboard */,
+				75E5458C1BD266DC004CDDC1 /* JokesViewController.h */,
+				75E5458D1BD266DC004CDDC1 /* JokesViewController.m */,
+				75E545921BD28839004CDDC1 /* JokeDetailedViewController.h */,
+				75E545931BD28839004CDDC1 /* JokeDetailedViewController.m */,
+				75E5458F1BD27771004CDDC1 /* Joke.h */,
+				75E545901BD27771004CDDC1 /* Joke.m */,
 				75E545731BD250C0004CDDC1 /* Images.xcassets */,
 				75E545751BD250C0004CDDC1 /* LaunchScreen.xib */,
 				75E545661BD250C0004CDDC1 /* Supporting Files */,
@@ -215,7 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E5456C1BD250C0004CDDC1 /* AppDelegate.m in Sources */,
+				75E545941BD28839004CDDC1 /* JokeDetailedViewController.m in Sources */,
 				75E545691BD250C0004CDDC1 /* main.m in Sources */,
+				75E545911BD27771004CDDC1 /* Joke.m in Sources */,
+				75E5458E1BD266DC004CDDC1 /* JokesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
